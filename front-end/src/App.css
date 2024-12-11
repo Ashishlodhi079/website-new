@@ -1,0 +1,95 @@
+
+.Nav-ul li{display:inline-block; padding: 10px;}
+
+.Nav-ul{    padding: 0;
+  margin: 0;
+  background-color: skyblue;}
+
+  .Nav-ul a{     text-decoration: none;
+    color: #fff;
+    padding: 5px 0 0;}
+
+ .Footer{position: absolute;
+  bottom: 0;
+  background-color: skyblue;
+  width: 100%;
+  text-align: center;
+ }
+ 
+ .Signupform{margin-left: 400px;}
+
+ .Formtext{    display: block;
+  padding: 11px 8px 11px;
+  width: 300px;
+  border: 1px solid skyblue;
+  margin: 12px;
+}
+
+.Formbutton{background-color: skyblue;
+  width: 200px;
+  height: 38px;
+  padding: 0px 0 0;
+  margin: 6px 12px 0;
+cursor: pointer;}
+
+.Loginform{margin-left: 400px;}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Nav-right{
+  text-align: right;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-logo{
+  width: 12%;
+  float: left;
+  background-color: #FFF;
+  padding: 4px 9px 0;
+}
+
+.form-error{color: red;
+  padding: 0px 13px 0;
+  font-size: 14px;}
+
+.List-header{
+  text-align: center;
+  
+}
+
+.List-header ul li{
+ display: inline-block;
+ padding: 0px 32px 0;
+    border: 1px solid skyblue;
+    width: 110px;
+  
+}
+.List-header ul{margin: 0;}
+
+.Search-Product{    width: 400px;
+  height: 40px;
+  border: 1px solid skyblue;
+  margin: 0px 0px 22px;
+  padding: 5px;}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
